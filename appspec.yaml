@@ -1,0 +1,9 @@
+version: 0.1
+os: linux
+files:
+  - source: index.js
+    destination: .\host
+  - source: package.json
+    destination: .\host
+  - source: \node_modules
+    destination: .\node_modules
