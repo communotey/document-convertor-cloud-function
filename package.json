@@ -1,0 +1,33 @@
+{
+  "name": "document-convertor-cloud-function",
+  "version": "0.0.1",
+  "description": "Cloud function to convert between different file formats",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/communotey/document-convertor-cloud-function.git"
+  },
+  "keywords": [
+    "lambda",
+    "pandoc",
+    "convert",
+    "document",
+    "odt",
+    "epub",
+    "docx",
+    "pdf"
+  ],
+  "author": "Communote Inc. <communote@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/communotey/document-convertor-cloud-function/issues"
+  },
+  "homepage": "https://github.com/communotey/document-convertor-cloud-function#readme",
+  "dependencies": {
+    "aws-sdk": "^2.373.0",
+    "pandoc-aws-lambda-binary": "^1.1.1"
+  }
+}
