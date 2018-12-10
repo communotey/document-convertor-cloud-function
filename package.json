@@ -4,6 +4,9 @@
   "description": "Cloud function to convert between different file formats",
   "main": "index.js",
   "scripts": {
+    "start": "claudia create --region us-east-1 --handler index.handler --timeout 60 --memory 512",
+    "connect": "claudia add-s3-event-source --bucket pandoc-test-bucket --prefix in",
+    "update": "claudia update",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,5 +32,8 @@
   "dependencies": {
     "aws-sdk": "^2.373.0",
     "pandoc-aws-lambda-binary": "^1.1.1"
+  },
+  "devDependencies": {
+    "claudia": "^5.2.0"
   }
 }
