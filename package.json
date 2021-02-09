@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/communotey/document-convertor-cloud-function#readme",
   "dependencies": {
-    "aws-sdk": "^2.373.0",
+    "aws-sdk": "^2.828.0",
     "pandoc-aws-lambda-binary": "^1.1.1"
   },
   "devDependencies": {
